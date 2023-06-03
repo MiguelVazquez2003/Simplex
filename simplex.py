@@ -1,7 +1,9 @@
-import streamlit as st
 import pulp
 import pandas as pd
 from PIL import Image
+import streamlit as st
+
+
 
 def solve_linear_programming(objective, constraints, maximize):
     problema = pulp.LpProblem("PROBLEMA_DE_OPTIMIZACION_LINEAL", pulp.LpMaximize if maximize else pulp.LpMinimize)
