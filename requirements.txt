@@ -1,4 +1,5 @@
-streamlit
 pulp
 pandas
-PIL
+Pillow
+streamlit
+
